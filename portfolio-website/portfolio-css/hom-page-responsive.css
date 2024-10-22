@@ -1,0 +1,232 @@
+@media only screen and (max-width: 770px){
+    .portfolio-web-menu{
+        width: 100%;
+        display: flex;
+    }
+    .portfolio-web-menu-item{
+        display: none;
+    }
+
+    .portfolio-hero-area{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        
+    }
+
+    .portfolio-hero-informetion{
+        width: 92%;
+        margin-top: 0;
+    }
+    
+    .portfolio-hero-informetion:first-child{
+        width: 92%;
+        height: auto;
+        padding: 20px 45px;
+        display: block;
+    }
+
+    .portfolio-hero-informetion:first-child h3{
+        font-size: 15px;
+    
+    }
+    
+    .portfolio-hero-informetion:first-child h1{
+        font-size: 45px;
+    }
+    
+    .portfolio-hero-informetion:first-child span{
+        font-size: 17px;
+    }
+    
+    .portfolio-hero-informetion:first-child p{
+        font-size: 12x;
+        line-height: 20px;
+    }
+    
+    .portfolio-hero-informetion:first-child a{
+        padding: 12px 30px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    
+.portfolio-hero-informetion:last-child{
+    width: 80%;
+    height: auto;
+    padding: 0 25px;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.portfolio-hero-informetion:last-child img{
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+}
+
+.portfolio-anim-section{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    top:  375px;
+    right: 118px;
+    text-align: center;
+}
+
+.portfolio-anim{
+    background-color: #13315c;
+    height: 100px;
+    width: 92%;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 0px #F9C873;
+    margin-left: 0px;
+}
+
+
+.portfolio-anim-section{
+    display: flex;
+    column-gap: 50px;
+    
+}
+
+
+.portfolio-anim:first-child{
+    background-color: #13315c;
+    
+}
+.portfolio-anim:last-child{
+    margin-top: 0;
+    margin-left: -10px;
+}
+
+.portfolio-service{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio--service-section{
+    width: 80%;
+    background-color: #13315c;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    margin: auto auto;
+    margin-bottom: 20px;
+}
+
+
+.portfolio--service-section i{
+    font-size: 50px;
+    color: #F3B90B;
+}
+
+.portfolio--service-section a{
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    padding-left: 0;
+}
+
+
+
+.user-pproject{
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+ }
+
+ .my-project{
+    width: 80%;
+    background-color: #13315c;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    margin: auto 0;
+    margin-bottom: 20px;
+ }
+
+ .my-project a{
+    display: inline-block;
+    padding: 0;
+ }
+
+
+ .testi-fornt h2{
+    font-size: 45px;
+    margin-top: 100px;
+}
+
+
+
+.testimonials-allouction{
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+.testimonials-text-center{
+    width: 80%;
+    padding: 20px 20px 20px 20px;
+    height: auto;
+}
+.contact-me h2{
+    font-size: 45px;
+}
+
+
+.portfolio-contact-information{
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+
+.portfolio-contact-text{
+        width: 80%;
+        padding: 20px 20px 20px 20px;
+}
+
+.my-contact{
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer-section{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background: #240046;
+    height: 100px;
+}
+.portfolio-foter{
+    display: block;
+    text-align: center;
+ }
+
+ .portfolio-footer-text:first-child{
+    margin-bottom: 10px;
+    padding-top: 20px;
+ }
+ .portfolio-footer-text:last-child p{
+   font-size: 15px;
+ }
+
+
+ .portfolio-foter i{
+    margin: 0 3px;
+    padding: 10px;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 10px;
+    width: 35px;
+    height: 35px;
+    transition: 0.5s;
+ }
+
+
+}

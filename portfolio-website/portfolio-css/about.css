@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+body{
+    background-color: #000814;
+}
+
+
+.nav{
+    background: #003d5b;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: middle;
+    color: #ffffff;
+   
+    
+}
+.logo a{
+    font-family: "Sixtyfour Convergence", sans-serif;
+    color: #ffffff;
+}
+
+nav li{
+    display: inline-block;
+}
+
+.nav a{
+    margin: 0 25px;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+nav a:hover{
+    padding: 10px 20px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #2ecc71;
+}
+
+
+
+
+.header-section-area{
+    background-color: royalblue;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-area-content{
+    display: flex;
+    column-gap: 10px;
+}
+
+
+.header-content-box{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+/* header menu design */
+
+.portfolio-web-menu{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.portfolio-web-menu{
+    background-color: #003d5b;
+    height: 60px;
+}
+
+.portfolio-web-menu-item{
+    width: 100px;
+    height: 100px;
+}
+
+.portfolio-web-menu h2{
+    color: #F3B90B;
+}
+
+/* PORTFOLIO WEBSITE MENU DESIGN 2 CHAILD ITEM */
+
+.portfolio-web-menu-item:first-child{
+    width: 250px;
+    justify-content: center;
+}
+
+.portfolio-web-menu-item:last-child{
+    width: 1065px;
+    justify-content: center;
+}
+
+.portfolio-web-menu-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portfolio-web-menu-item ul{
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+}
+
+.portfolio-web-menu-item li{
+    list-style: none;
+}
+
+.portfolio-web-menu-item li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 12px 18px;
+    /* background: #5603ad; */
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.portfolio-web-menu-item li a:hover{ 
+    /* background-color: #212529;
+    box-shadow: 0px 0px 5px 0px #F9C873; */
+    background-color: #043852;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 10px 0px #F9C873;
+}
+.last-child a{
+    background-color: #F3B90B;
+    box-shadow: 0px 0px 20px 0px #F9C873;
+    color: #F3B90B;
+    
+    
+}
+
+
+/* hero area design */
+
+
+.timeline{
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+    
+}
+
+.container{
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+    animation: movedown 1s linear forwards;
+    opacity: 0;
+}
+
+@keyframes movedown{
+    0%{
+        opacity: 0;
+        transform: translatey(-30px);
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translatey(0);
+    }
+}
+
+
+
+
+.container:nth-child(1){
+    animation-delay: 1s;
+}
+.container:nth-child(2){
+    animation-delay: 2s;
+}
+.container:nth-child(3){
+    animation-delay: 3s;
+}
+.container:nth-child(4){
+    animation-delay: 4s;
+}
+.container:nth-child(5){
+    animation-delay: 5s;
+}
+.container:nth-child(6){
+    animation-delay: 6s;
+}
+.container:nth-child(7){
+    animation-delay: 7s;
+}
+.container:nth-child(8){
+    animation-delay: 8s;
+}
+
+
+
+.text-box{
+    padding: 20px 30px;
+    background-color: #13315c;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #ffffff;
+}
+.text-box{
+    line-height: 24px;
+}
+
+.left-container{
+    left: 0;
+}
+
+.right-container{
+    left: 50%;
+}
+
+.container img{
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    right: -70px;
+    top: 32px;
+    z-index: 10;
+}
+
+.right-container img{
+    left: -70px;
+}
+
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #F3B90B;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+    animation: moveline 8s linear forwards;
+}
+
+@keyframes moveline{
+    0%{
+        height: 0;
+    }
+    100%{
+        height: 100%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+.text-box h2{
+    font-weight: 600px;
+}
+
+.text-box small{
+    display: inline-block;
+    margin-bottom: 15px;
+
+}
+
+.left-container-arrow{
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #13315c;
+    right: -15px;
+}
+
+.right-container-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #13315c;
+    left: -15px;
+    
+}
+
+@media screen and (max-width: 600px){
+
+
+    .timeline{
+        margin: 50px auto;
+    }
+    
+    .timeline::after{
+        left: 35px;
+
+    }
+    .container{
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 25px;
+
+    }
+
+    .text-box{
+        font-size: 13px;
+
+    }
+    .text-box small{
+        margin-bottom: 10px;
+    }
+    .right-container{
+        left: 0;
+    }
+    .left-container img, .right-container img{
+        left: -66px;
+    }
+    .right-container-arrow, .left-container-arrow{
+        border-right: 15px solid #13315c;
+        border-left: 0;
+        left: 15px;
+    }
+}
+
+
+
+
+
+ /* footer section design */
+
+ .footer-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #240046;
+    height: 80px;
+}
+.portfolio-foter{
+    display: flex;
+    column-gap: 700px;
+    align-items: center;
+   
+ }
+.portfolio-foter p{
+    color: #ffffff;
+ }
+
+.portfolio-foter i{
+    margin: 0 3px;
+    padding: 15px;
+    background-color: #ffffff;
+    color: black;
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
+    transition: 0.5s;
+ }
+.portfolio-foter i:hover{
+    background-color: #F3B90B;
+    box-shadow: 0px 0px 10px 0px #F9C873;
+    color: #ffffff;
+    
+ }
